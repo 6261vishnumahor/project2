@@ -1,0 +1,384 @@
+.nav {
+    display: flex;
+
+
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    /* border-radius: 10px;
+  margin: 20px; */
+}
+
+.gat {
+    background-color: rgb(226, 108, 108);
+    color: white;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.nav div {
+    display: flex;
+}
+
+div article {
+    margin-right: 80px;
+}
+
+.nav article i {}
+
+.nav1 {
+    font-size: 32px;
+    padding-left: 250px;
+
+}
+
+.nav2 {
+    display: flex;
+    margin: 160px 40px;
+
+}
+
+.navA {
+    font-size: 40px;
+
+}
+
+.navB {
+    background-color: blueviolet;
+    width: 90px;
+    text-align: center;
+    font-size: 19px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img1 {
+    margin-left: 170px;
+    width: 400px;
+    mix-blend-mode: color-burn;
+}
+
+.img2 {
+    width: 50px;
+    margin: 0px 9px 0px 0px;
+
+}
+
+.call {
+    display: flex;
+    margin: 0px 800px 0px 0px;
+    background-color: white;
+    color: black;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+.call i {
+    margin-left: 60px;
+}
+
+#call1 {
+    /* margin:0px 0px 0px 100px ; */
+    /* margin-top: 50px;  */
+}
+
+.features .main {
+    font-size: 36px;
+    padding: 0px 0px 20px 0px;
+}
+
+.features {
+    padding: 80px;
+
+
+}
+
+.battery b {
+    font-size: 22px;
+
+}
+
+.battery {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.battery div {
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+}
+
+.micro b {
+    font-size: 22px;
+
+}
+
+.micro {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.micro div {
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+}
+
+.cal b {
+    font-size: 22px;
+
+}
+
+.cal {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.cal div {
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+}
+
+.noise b {
+    font-size: 22px;
+
+}
+
+.noise {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.noise div {
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+}
+
+.network b {
+    font-size: 22px;
+
+}
+
+.network {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.network div {
+    padding: 0px 10px 0px 20px;
+    font-size: 12px;
+}
+
+.allb {
+    margin-left: 300px;
+
+    width: 250px;
+
+    mix-blend-mode: color-burn;
+
+
+}
+
+.dal {
+    display: flex;
+}
+
+.bild {
+    text-align: center;
+}
+
+#bild1 {
+    font-size: 40px;
+}
+
+.img3 {
+    width: 1100px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+.elevate {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.elevate1 {
+    font-size: 40px;
+}
+
+.byc b {
+    font-size: 22px;
+}
+
+.byc div {
+    font-size: 12px;
+}
+
+.byc article i {
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.byc {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.sports b {
+    font-size: 22px;
+}
+
+.sports div {
+    font-size: 12px;
+}
+
+.sports article i {
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.sports {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.sty b {
+    font-size: 22px;
+}
+
+.sty div {
+    font-size: 12px;
+}
+
+.sty article i {
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.sty {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.stock b {
+    font-size: 22px;
+}
+
+.stock div {
+    font-size: 12px;
+}
+
+.stock article i {
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.stock {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.sod {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.heart b {
+    font-size: 22px;
+}
+
+.heart div {
+    font-size: 12px;
+}
+
+.heart article i {
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.heart {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.blode b {
+    font-size: 22px;
+}
+
+.blode div {
+    font-size: 12px;
+}
+
+.blode article i {
+    font-size: 35px;
+    padding-right: 10px;
+}
+
+.blode {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.com {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.com1 {
+    font-size: 50px;
+}
+
+.img4 {
+    width: 300px;
+    height: 400px;
+
+}
+
+.com2 {
+    background-color: rgb(107, 91, 91);
+    border-radius: 20px;
+    margin: 40px 0px 0px 200px;
+    width: 1100px;
+    align-items: center;
+}
+
+.fun {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.fun1 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+.card article img {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+   
+    border-radius: 10px;
+}
+
+.card {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    
+}
+
+.card article:hover {
+    box-shadow: 0px 0px 40px 1px rgb(221, 12, 12);
+    scale: 0.8;
+   
+}
+
