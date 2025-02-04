@@ -6,6 +6,10 @@
     padding: 20px 0px 0px 20px;
     /* border-radius: 10px;
   margin: 20px; */
+  overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
 }
 
 .gat {
@@ -13,6 +17,7 @@
     color: white;
     padding-bottom: 50px;
     border-radius: 10px;
+    overflow-x: hidden;
 }
 
 .nav div {
@@ -23,7 +28,9 @@ div article {
     margin-right: 80px;
 }
 
-.nav article i {}
+.nav i {
+margin-left: 30px;
+}
 
 .nav1 {
     font-size: 32px;
@@ -71,6 +78,7 @@ div article {
     color: black;
     width: 250px;
     border-radius: 10px;
+    overflow-x: hidden;
 
 }
 
@@ -90,7 +98,7 @@ div article {
 
 .features {
     padding: 80px;
-
+    overflow-x: hidden;
 
 }
 
@@ -172,10 +180,10 @@ div article {
 .allb {
     margin-left: 300px;
 
-    width: 250px;
+    width: 300px;
 
     mix-blend-mode: color-burn;
-
+    overflow-x: hidden;
 
 }
 
@@ -185,6 +193,7 @@ div article {
 
 .bild {
     text-align: center;
+    overflow-x: hidden;
 }
 
 #bild1 {
@@ -201,6 +210,7 @@ div article {
 .elevate {
     text-align: center;
     padding-top: 100px;
+    overflow-x: hidden;
 }
 
 .elevate1 {
@@ -224,6 +234,7 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .sports b {
@@ -243,6 +254,7 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .sty b {
@@ -262,6 +274,7 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .stock b {
@@ -281,12 +294,14 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .sod {
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    overflow-x: hidden;
 }
 
 .heart b {
@@ -306,6 +321,7 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .blode b {
@@ -325,11 +341,13 @@ div article {
     display: flex;
     list-style-type: none;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .com {
     text-align: center;
     margin-top: 90px;
+    overflow-x: hidden;
 }
 
 .com1 {
@@ -353,6 +371,7 @@ div article {
 .fun {
     text-align: center;
     margin-top: 90px;
+    overflow-x: hidden;
 }
 
 .fun1 {
@@ -373,6 +392,7 @@ div article {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
+    overflow-x: hidden;
     
 }
 
@@ -380,5 +400,8 @@ div article {
     box-shadow: 0px 0px 40px 1px rgb(221, 12, 12);
     scale: 0.8;
    
+}
+.card article{
+width: 200px;
 }
 
