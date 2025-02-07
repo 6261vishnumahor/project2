@@ -6,9 +6,10 @@
     padding: 20px 0px 0px 20px;
     /* border-radius: 10px;
   margin: 20px; */
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
-body{
+
+body {
     overflow-x: hidden;
 }
 
@@ -29,7 +30,7 @@ div article {
 }
 
 .nav i {
-margin-left: 30px;
+    margin-left: 30px;
 }
 
 .nav1 {
@@ -86,10 +87,10 @@ margin-left: 30px;
     margin-left: 60px;
 }
 
-#call1 {
+/* #call1 {
     /* margin:0px 0px 0px 100px ; */
-    /* margin-top: 50px;  */
-}
+/* margin-top: 50px;  
+} */
 
 .features .main {
     font-size: 36px;
@@ -119,7 +120,6 @@ margin-left: 30px;
 
 .micro b {
     font-size: 22px;
-
 }
 
 .micro {
@@ -149,7 +149,6 @@ margin-left: 30px;
 
 .noise b {
     font-size: 22px;
-
 }
 
 .noise {
@@ -164,7 +163,6 @@ margin-left: 30px;
 
 .network b {
     font-size: 22px;
-
 }
 
 .network {
@@ -184,12 +182,21 @@ margin-left: 30px;
 
     mix-blend-mode: color-burn;
     overflow-x: hidden;
-
 }
 
 .dal {
     display: flex;
 }
+
+@media (max-width:1024px) {
+    .dal {
+        align-items: center;
+        padding-right: 500px;
+
+    }
+}
+
+@media (max-width:768px) {}
 
 .bild {
     text-align: center;
@@ -207,23 +214,27 @@ margin-left: 30px;
     margin-top: 40px;
     border-radius: 20px;
 }
+
 @media (max-width:1024px) {
     .img3 {
-        width: 900px;
+        width: 800px;
     }
 }
+
 @media (max-width:768px) {
     .img3 {
         width: 700px;
-        height: 400px;
+        height: 300px;
     }
 }
+
 @media (max-width:431px) {
     .img3 {
         width: 350px;
         height: 250px;
     }
 }
+
 @media (max-width:431px) {
     .img3 {
         width: 350px;
@@ -392,6 +403,26 @@ margin-left: 30px;
     align-items: center;
 }
 
+@media (max-width:1024px) {
+    .com2 {
+        width: 800px;
+        margin: 20px 0px 0px 100px;
+    }
+}
+@media (max-width:768px) {
+    .com2 {
+        width: 700px;
+        margin: 20px 0px 0px 25px;
+    }
+}
+@media (max-width:425px) {
+    .com2 {
+        width: 100px;
+        /* margin: 20px 0px 0px 25px; */
+    }
+    
+}
+
 .fun {
     text-align: center;
     margin-top: 90px;
@@ -407,7 +438,7 @@ margin-left: 30px;
     width: 200px;
     height: 300px;
     overflow: hidden;
-   
+
     border-radius: 10px;
 }
 
@@ -417,15 +448,15 @@ margin-left: 30px;
     grid-template-columns: auto auto auto;
     justify-content: space-evenly;
     overflow-x: hidden;
-    
+
 }
 
 .card article:hover {
     box-shadow: 0px 0px 40px 1px rgb(221, 12, 12);
     scale: 0.8;
-   
-}
-.card article{
-width: 200px;
+
 }
 
+.card article {
+    width: 200px;
+}
