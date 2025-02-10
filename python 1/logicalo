@@ -1,0 +1,18 @@
+"""userinput=int(input("enter the number"))
+start=23
+end=56
+if (userinput>start )& (userinput<end ):
+    print("number lier between start and end")
+else:
+    print("inalid input")"""
+
+#w a p to find wheater a year is leep year or not 
+        #1.year is  dividible by 4 but not divisible by 100 and divisible by 400
+"""year= int(input(" enter the number"))
+if (((year%4==0) & (year%100!=0)) | (year%400==0)):
+        print("leap year")
+else:
+        print("not a leaf year")
+     """
+a=int(input("enter the the number"))
+b=int(input("enter the number the"))
