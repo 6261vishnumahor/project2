@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 0px 20px;
+    /* border-radius: 10px;
+    margin: 20px; */
+    overflow-x: hidden;
+    text-decoration: none;
+    position: sticky;
+    top: 0px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.nav div article a {
+    text-decoration: none;
+}
+
+.nav div {
+    display: flex;
+}
+
+div article a {
+    margin-right: 80px;
+}
+
+.nav i {
+    margin-left: 30px;
+    color: black;
+}
+
+.nav1 {
+    font-size: 32px;
+}
+
+.ds1 {
+    display: none;
+    background-color: rgb(193, 86, 86);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img1 {
+    width: 100px;
+}
+
+#bars {
+    display: none;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* padding: 5px; */
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: white;
+}
+
+
+
+@media (max-width:1025px) {
+  
+
+    .nav {
+        display: none;
+    }
+
+    .ds1 {
+        display: block;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    #inp:checked~.nav {
+        display: block;
+        width: 400px;
+        height: 50vh;
+    }
+
+  
+    #inp:checked~.nav .kdsa {
+        display: block;
+        
+    }
+    #inp:checked~.nav .kdsa article {
+        padding: 20px;
+              }
+
+    #inp:checked~.nav .nav1 {
+        display: none;
+    }
+
+    #inp:checked~.nav .dsa {
+        display: none;
+
+    }
+}
+
+/* .ds1 {
+    background-color: rgb(107, 107, 139);
+} */
